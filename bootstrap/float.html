@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        margin: 0px;
+        background-color: antiquewhite;
+
+    }
+    .container{
+       
+        height: 2000px;
+    }
+    #first{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        background-color: red;
+    }
+    #second{
+        
+        background-color: blue;
+     
+    }
+    #third{
+       
+        background-color: aqua;
+       
+    }
+    .container>div{
+        height: 100px;
+        width: 100px;
+    }
+</style>
+<body>
+    
+    <div class="container">
+        <div id="first">click on me</div>
+        <div id="second">2</div>
+        <div id="third">3</div>
+    </div>
+
+</body>
+</html>

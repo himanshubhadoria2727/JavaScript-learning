@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.container{
+    width: 80%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 100px 50px;
+    box-sizing: border-box;
+}
+
+.container h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2.9rem;
+    color: black;
+    background-color: rgb(153, 223, 199);
+    margin: 20px;
+}
+
+select{
+    background-color: white;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+select option{
+    background-color: white;
+}
+
+button{
+    background-color: rgb(94, 94, 159);
+    outline: none;
+   font-size: 1.2rem;
+}

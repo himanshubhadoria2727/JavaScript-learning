@@ -1,0 +1,54 @@
+*{
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(63, 142, 191);
+    padding: 50px;
+}
+
+header > a{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+header>a:hover{
+    color: black;
+}
+
+section{
+    background-color: rgb(162, 207, 205);
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+}
+
+section > h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px
+}
+
+.image-container{
+    width: 400px;
+}
+
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(29, 32, 32);
+    width: 1000px;
+    margin: auto;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+footer > a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+
+}

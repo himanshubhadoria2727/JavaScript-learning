@@ -1,0 +1,19 @@
+const name= document.getElementById("name");
+const tagContainer=document.querySelector(".tags")
+
+const body=document.body;
+body.style.backgroundColor="black";
+const addName=()=>{
+    if(name.value===""){
+        return null;
+    }
+
+const tag = document.createElement("div")
+
+tag.setAttribute("class", "tag");
+
+tag.innerText= `Hey, I am ${name.value}`;
+
+tagContainer.append(tag);
+
+};

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form action="app.js" method="POST">
+        <h1>
+        Contact details
+    </h1>
+    <div>Name: <input placeholder="enter name" required type="text" name="username" id="name"></div><br>
+
+    <div>Email: <input placeholder="enter email" required type="email" name="useremail" id="email"></div><br> 
+
+    <div>Message: <textarea placeholder="enter message" name="usermessage" id="message" cols="30" rows="10"></textarea></div><br>
+    
+    <div>Number: <input placeholder="enter number" required type="number" name="useremail" id="number"></div><br> 
+    <div>
+        Gender: <select name="usergender" id="gender">
+            <option value="">choose one</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+    </div><br>
+
+    <div class="check">
+
+       Frontend: <input type="checkbox" name="skills" id="fontend">
+       Backend: <input type="checkbox" name="skills" id="backend">
+
+    </div><br>
+
+    <div class="payment">
+    <fieldset>
+        <legend>mode of payment</legend>
+    Cash <input type="radio" name="payment" id="cash">
+    Bank <input type="radio" name="payment" id="bank">
+    </fieldset>
+    </div><br>
+
+    <input type="submit" value="Submit"/>
+   
+    </form>
+</body>
+</html>

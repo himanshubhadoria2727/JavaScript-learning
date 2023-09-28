@@ -1,0 +1,108 @@
+html{
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    background-image: url(./bird.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    overflow-x: hidden;
+    height: 900px;
+}
+
+header{
+    padding: 20px auto;
+    position: sticky;
+    top: 0;
+    z-index: 1; /* Ensures the navbar appears above other elements */
+  /* Additional styling for your navbar */
+    background-color: #256884; /* Customize as needed */
+    padding: 10px; 
+}
+
+.logobox{
+    clear: left;
+    display: inline-block;
+    padding:20px 0px 0px 0px;
+    width: 145px;
+    font-size: xx-large;
+    position: relative;
+    top:-15px;
+    font-weight:bold;
+}
+
+.navbox {
+    clear: left;
+    padding: 20px ;
+    display: inline-block;
+    width: 500px;
+    position: absolute;
+    right: 10px;
+}
+
+.navbox > a{
+    color:black;
+    padding: 30px;
+    font-weight: 500;
+    font-size: large;
+    text-decoration: none;
+}
+
+.navbox > a:hover{
+    color: rgb(83, 70, 70);
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+    font-size: 95px;
+    position: relative;
+    top: -30px;
+}
+
+
+h1+h1{
+    text-align: left;
+    font-size: 70px;
+    position: relative;
+    left: 30px;
+    top: 250px;
+}
+
+.wordz{
+    width :700px;
+    font-size: 20px;
+    word-spacing: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    position: absolute;
+    top: 420px;
+    right: 30px;
+
+}
+
+.btn{
+    
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+
+    border: none;
+    border-radius: 20px;
+    background-color: crimson;
+
+    position: sticky;
+    left: 1200px;
+    top: 600px;
+}
+.btn a{
+    text-decoration: none;
+}
+
+
+.btn:hover{
+    background-color: rgb(0, 94, 255);
+    color: white;
+}
